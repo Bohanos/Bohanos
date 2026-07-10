@@ -23,6 +23,7 @@ Beyond the code, I am the creator of **[BohanosAI]**, where I merge technical de
     *   A full-stack application designed for seamless profile card creation.
     *   *Key tech:* FastAPI, Vanilla.
     *   *Status:* Deployed (Netlify & Render).
+    *   *Repo link:* [https://github.com/Bohanos/A-simple-frontend-and-backend-integration-project]
 
 *   **[Betbook] (Work in Progress)**
     *   An application focused on managing and tracking betting data and logic.
