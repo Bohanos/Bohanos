@@ -80,8 +80,12 @@ A premium grooming and styling website that showcases professional services and 
 *   🌐 [Visit the live site](https://berah-barber-studio.vercel.app/) · 💻 [View the repository](https://github.com/Bohanos/Berah-Barber-Studio)
 
 <p>
-  <a href="https://berah-barber-studio.vercel.app/"><img src="assets/berah/berah-preview.png" width="400" alt="Berah's Barber Studio: hero"></a>
-  <a href="https://berah-barber-studio.vercel.app/"><img src="assets/berah/berah-preview-2.png" width="400" alt="Berah's Barber Studio: professional services"></a>
+  <table>
+  <tr>
+    <td><a href="https://berah-barber-studio.vercel.app/"><img src="assets/berah/berah-preview.png" width="420" alt="Berah's Barber Studio homepage"></a></td>
+    <td><a href="https://berah-barber-studio.vercel.app/"><img src="assets/berah/berah-preview-2.png" width="420" alt="Berah's Barber Studio professional services"></a></td>
+  </tr>
+</table>
 </p>
 
 ---
