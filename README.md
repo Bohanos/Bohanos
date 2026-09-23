@@ -98,7 +98,7 @@ A website built for a client NGO that provides community-based cancer care in Ab
 *   *Status:* 🚧 **In development.** This project is not finished yet, so some content and images are still missing.
 *   🌐 [Preview the current version](https://ngo-gules-two.vercel.app/)
 
-<a href="https://ngo-gules-two.vercel.app/"><img src="assets/mecedonian call/macedonian-call-preview.png.png" width="600" alt="Macedonian Call Cancer Foundation website preview"></a>
+<a href="https://ngo-gules-two.vercel.app/"><img src="assets/mecedonian-call/macedonian-call-preview.png" width="600" alt="Macedonian Call Cancer Foundation website preview"></a>
 
 ---
 
