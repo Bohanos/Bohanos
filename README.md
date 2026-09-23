@@ -83,7 +83,7 @@ A premium grooming and styling website that showcases professional services and 
   <table>
   <tr>
     <td><a href="https://berah-barber-studio.vercel.app/"><img src="assets/berah/berah-preview.png" width="420" alt="Berah's Barber Studio homepage"></a></td>
-    <td><a href="https://berah-barber-studio.vercel.app/"><img src="assets/berah/berah-preview-2.png" width="420" alt="Berah's Barber Studio professional services"></a></td>
+    <td><a href="https://berah-barber-studio.vercel.app/"><img src="assets/berah/berah-preview-2.png" width="420" alt="Berah's Barber Studio professionalservices"></a></td>
   </tr>
 </table>
 </p>
