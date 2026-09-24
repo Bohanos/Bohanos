@@ -1,6 +1,6 @@
 # Hello, I'm Mgboji Chinonso Joshua (Bohanos) 👋
 
-I am a **Full-Stack Web Developer** and **Software Engineering Student** passionate about building scalable, user-centric web applications. My focus is on creating robust backends with **FastAPI** and dynamic, responsive frontends with **React**.
+I am a **Full-Stack Web Developer** and **Software Engineer** passionate about building scalable, user-centric web applications. My focus is on creating robust backends with **FastAPI** and dynamic, responsive frontends with **React**.
 
 Beyond the code, I am the creator of **[#BohanosAI]**, where I merge technical development with creative storytelling and AI-assisted design.
 
@@ -65,9 +65,12 @@ A full-stack, role-based hospital management system that digitizes day-to-day cl
   </tr>
 </table>
 
-**🔜 Coming next: Patient Data Module**
+**🔜 Coming next**
 
-An extended patient data module is the next feature on the roadmap. It already exists, but a more elaborate medical history, family history, observation (vital signs (T,P,R,BP)), etc. It is noted at the end of the demo video (comming soon), and the documentation will be updated once it ships. Also, an added account role to seperate the receptionist's work from the accountant (which will now control everything about billing, including the admin. The receptionist's role will now focus on strickly appointments booking and recording/ updating a patient's info).
+*   **Expanded patient data module:** the patient profile already includes contact, insurance, emergency-contact and medical history tabs. The next release deepens it with a more detailed medical history, family history and observations (vital signs: temperature, pulse, respiration and blood pressure), among other things.
+*   **New Accountant role:** all billing moves to a dedicated Accountant role, taking over from the Admin as well. The Receptionist will then focus strictly on booking appointments and recording or updating patient information.
+
+Both are previewed at the end of the demo video, and the documentation will be updated once they ship.
 
 ---
 
