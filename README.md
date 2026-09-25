@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/branding/bohanos-logo-horizontal.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/branding/bohanos-logo-horizontal-light.png">
+    <img alt="Bohanos" src="assets/branding/bohanos-logo-horizontal-light.png" width="420">
+  </picture>
+</p>
+
 # Hello, I'm Mgboji Chinonso Joshua (Bohanos) 👋
 
 I am a **Full-Stack Web Developer** and **Software Engineer** passionate about building scalable, user-centric web applications. My focus is on creating robust backends with **FastAPI** and dynamic, responsive frontends with **React**.
@@ -26,7 +34,7 @@ Beyond the code, I am the creator of **[#BohanosAI]**, where I merge technical d
 
 A full-stack, role-based hospital management system that digitizes day-to-day clinic operations: patient records, appointments, billing, pharmacy, laboratory, staff management and reports, all from one dashboard.
 
-📺 [Watch demo video](https://your-video-link) Video is currently not available(will be done soon) · 📄 [Read the full documentation](docs/MedCore-HMS-Documentation.pdf) · 🔒 Source code private (available on request)
+📺 [Watch demo video](https://your-video-link) Video is currently not available (will be done soon) · 📄 [Read the full documentation](docs/MedCore-HMS-Documentation.pdf) · 🔒 Source code private (available on request)
 
 > **Deployment model:** MedCore is built for **on-premise use on a hospital's local network (LAN)**. It is intentionally not publicly hosted, since access is restricted to authenticated staff. The demo video and screenshots below show the full system running with fake data.
 
@@ -65,12 +73,12 @@ A full-stack, role-based hospital management system that digitizes day-to-day cl
   </tr>
 </table>
 
-**🔜 Coming next**
+**🔜 Roadmap (planned, not built yet)**
 
-*   **Expanded patient data module:** the patient profile already includes contact, insurance, emergency-contact and medical history tabs. The next release deepens it with a more detailed medical history, family history and observations (vital signs: temperature, pulse, respiration and blood pressure), among other things.
-*   **New Accountant role:** all billing moves to a dedicated Accountant role, taking over from the Admin as well. The Receptionist will then focus strictly on booking appointments and recording or updating patient information.
+*   **Clinical records for nurses:** the patient profile has a Medical History tab, currently a placeholder. Planned: nurses will record medical history, family history, observations (vital signs: temperature, pulse, respiration and blood pressure) and health details such as blood group and allergies there. These currently sit on the registration form.
+*   **Role changes:** a new Accountant role will take over all billing, including what the Admin controls today. The Receptionist will then focus strictly on booking appointments and recording or updating patient details, not health-related information.
 
-Both are previewed at the end of the demo video, and the documentation will be updated once they ship.
+These are previewed at the end of the demo video as upcoming features, not part of the current build. The documentation will be updated once they ship.
 
 ---
 
@@ -86,7 +94,7 @@ A premium grooming and styling website that showcases professional services and 
   <table>
   <tr>
     <td><a href="https://berah-barber-studio.vercel.app/"><img src="assets/berah/berah-preview.png" width="420" alt="Berah's Barber Studio homepage"></a></td>
-    <td><a href="https://berah-barber-studio.vercel.app/"><img src="assets/berah/berah-preview-2.png" width="420" alt="Berah's Barber Studio professionalservices"></a></td>
+    <td><a href="https://berah-barber-studio.vercel.app/"><img src="assets/berah/berah-preview-2.png" width="420" alt="Berah's Barber Studio professional services"></a></td>
   </tr>
 </table>
 </p>
@@ -101,7 +109,7 @@ A website built for a client NGO that provides community-based cancer care in Ab
 *   *Status:* 🚧 **In development.** This project is not finished yet, so some content and images are still missing.
 *   🌐 [Preview the current version](https://ngo-gules-two.vercel.app/)
 
-<a href="https://ngo-gules-two.vercel.app/"><img src="assets/mecedonian-call/macedonian-call-preview.png" width="600" alt="Macedonian Call Cancer Foundation website preview"></a>
+<a href="https://ngo-gules-two.vercel.app/"><img src="assets/macedonian-call/macedonian-call-preview.png" width="600" alt="Macedonian Call Cancer Foundation website preview"></a>
 
 ---
 
@@ -113,9 +121,9 @@ I believe that software development is as much about creativity as it is about l
 ### 📬 Connect With Me
 
 *   **GitHub:** [github.com/Bohanos](https://github.com/Bohanos)
+*   **Facebook:** [facebook.com/Chinonso Mgboji](https://www.facebook.com/Bohanos)
 *   **Email:** [mgbojichinonsojoshua@gmail.com](mailto:mgbojichinonsojoshua@gmail.com)
 *   **Portfolio:** *Coming Soon* — Currently leveling up through an advanced development course to build my official portfolio.
-
 ---
 
 > *Currently focused on building, learning, and scaling. Let's connect!*
