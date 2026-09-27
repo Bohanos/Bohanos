@@ -34,7 +34,7 @@ Beyond the code, I am the creator of **[#BohanosAI]**, where I merge technical d
 
 A full-stack, role-based hospital management system that digitizes day-to-day clinic operations: patient records, appointments, billing, pharmacy, laboratory, staff management and reports, all from one dashboard.
 
-📺 [Watch demo video](https://your-video-link) Video is currently not available (will be done soon) · 📄 [Read the full documentation](docs/MedCore-HMS-Documentation.pdf) · 🔒 Source code private
+📺 [Watch demo video](https://youtu.be/zPUUtvPMxAM) · 📄 [Read the full documentation](docs/MedCore-HMS-Documentation.pdf) · 🔒 Source code private
 
 > **Deployment model:** MedCore is built for **on-premise use on a hospital's local network (LAN)**. It is intentionally not publicly hosted, since access is restricted to authenticated staff. The demo video and screenshots below show the full system running with fake data.
 
@@ -124,6 +124,6 @@ I believe that software development is as much about creativity as it is about l
 *   <img src="assets/branding/connect/icon-facebook.png" width="20" valign="middle"> **Facebook:** [facebook.com/Bohanos](https://www.facebook.com/Bohanos)
 *   <img src="assets/branding/connect/icon-email.png" width="20" valign="middle"> **Email:** [mgbojichinonsojoshua@gmail.com](mailto:mgbojichinonsojoshua@gmail.com)
 *   <img src="assets/branding/connect/icon-portfolio.png" width="20" valign="middle"> **Portfolio:** *Coming Soon* — Currently leveling up through an advanced development course to build my official portfolio.
----
+--- 
 
 > *Currently focused on building, learning, and scaling. Let's connect!*
