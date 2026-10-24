@@ -123,7 +123,7 @@ I believe that software development is as much about creativity as it is about l
 *   <img src="assets/branding/connect/icon-github.png" width="20" valign="middle"> **GitHub:** [github.com/Bohanos](https://github.com/Bohanos)
 *   <img src="assets/branding/connect/icon-facebook.png" width="20" valign="middle"> **Facebook:** [facebook.com/Bohanos](https://www.facebook.com/Bohanos)
 *   <img src="assets/branding/connect/icon-email.png" width="20" valign="middle"> **Email:** [mgbojichinonsojoshua@gmail.com](mailto:mgbojichinonsojoshua@gmail.com)
-*   <img src="assets/branding/connect/icon-portfolio.png" width="20" valign="middle"> **Portfolio:** *Coming Soon* — Currently leveling up through an advanced development course to build my official portfolio.
+*   <img src="assets/branding/connect/icon-portfolio.png" width="20" valign="middle"> **Portfolio:** [bohanos-portfolio.vercel.app](https://bohanos-portfolio.vercel.app/)
 --- 
 
 > *Currently focused on building, learning, and scaling. Let's connect!*
