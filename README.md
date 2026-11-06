@@ -34,7 +34,7 @@ Beyond the code, I am the creator of **[#BohanosAI]**, where I merge technical d
 
 A full-stack, role-based hospital management system that digitizes day-to-day clinic operations: patient records, appointments, billing, pharmacy, laboratory, staff management and reports, all from one dashboard.
 
-📺 [Watch demo video](https://youtu.be/zPUUtvPMxAM) · 📄 [Read the full documentation](docs/MedCore-HMS-Documentation.pdf) · 🔒 Source code private
+📺 [Watch demo video](https://youtu.be/zPUUtvPMxAM) · 📄 [Read the full documentation](docs/MEDCORE_HMS_Documentation.pdf) · 🔒 Source code private
 
 > **Deployment model:** MedCore is built for **on-premise use on a hospital's local network (LAN)**. It is intentionally not publicly hosted, since access is restricted to authenticated staff. The demo video and screenshots below show the full system running with fake data.
 
