@@ -32,26 +32,29 @@ Beyond the code, I am the creator of **[#BohanosAI]**, where I merge technical d
 
 #### 🏥 MedCore Hospital Management System
 
-A full-stack, role-based hospital management system that digitizes day-to-day clinic operations: patient records, appointments, billing, pharmacy, laboratory, staff management and reports, all from one dashboard.
+A full-stack, role-based hospital management system that digitizes day-to-day clinic operations: patient records, appointments, billing, pharmacy, laboratory, staff management and reports, all in one system. Every step that involves money or medicine is checked by the server before it moves on.
 
-📺 [Watch demo video](https://youtu.be/zPUUtvPMxAM) · 📄 [Read the full documentation](docs/MEDCORE_HMS_Documentation.pdf) · 🔒 Source code private
+📺 [Watch demo video](https://youtu.be/x3ZE71Gsl0I) · 🌐 [Visit the landing page](https://medcore-iota.vercel.app/) · 📄 [Read the full documentation](docs/MEDCORE_HMS_Documentation.pdf) · 🔒 Source code private
 
-> **Deployment model:** MedCore is built for **on-premise use on a hospital's local network (LAN)**. It is intentionally not publicly hosted, since access is restricted to authenticated staff. The demo video and screenshots below show the full system running with fake data.
+> **Deployment model:** MedCore is built for **on-premise use on a hospital's local network (LAN)**. It is intentionally not publicly hosted, since access is restricted to authenticated staff. The landing page, the demo video and the screenshots below show the full system running with fake data.
 
 *   *Key tech:* React (Vite), Tailwind CSS, FastAPI, PostgreSQL, SQLAlchemy (async), Alembic, JWT + Argon2
-*   *Status:* Complete and actively maintained. The documentation is updated whenever the app changes.
+*   *Status:* Actively maintained. New features and improvements ship regularly, and the documentation is updated whenever the app changes.
 
 **✨ Highlights**
 
-*   **Role-based access control** for 6 roles (Admin, Doctor, Nurse, Receptionist, Pharmacist, Lab Technician), enforced on the backend (HTTP 403), not just hidden in the UI
-*   **Patient records** with search, insurance and emergency-contact details, and a tabbed profile (history, appointments, billing, lab results, prescriptions)
-*   **Appointments** with a custom-built month calendar and a strict status workflow (only the assigned doctor can confirm or complete a visit)
-*   **Billing** with invoices, payments, PDF receipts and refunds, restricted to Admin and Receptionist
-*   **Pharmacy** with drug inventory, low-stock alerts that trigger real notifications, and a dispense workflow
-*   **Laboratory** with a payment-gated flow: order, payment, result entry, doctor notification and patient email
+*   **Role-based access control** for 7 roles (Admin, Doctor, Nurse, Receptionist, Pharmacist, Lab Technician, Accountant), enforced on the backend (HTTP 403), not just hidden in the UI
+*   **Payment-gated workflow:** an appointment can only be confirmed, a lab test run or a prescription dispensed once its invoice is paid in full
+*   **Patient records** with search, insurance and emergency-contact details, and a tabbed profile (appointments, prescriptions, billing, lab results) where each tab is shown only to the roles allowed to see it
+*   **Appointments** with a custom-built month calendar and a strict status workflow: only the assigned doctor can confirm or complete a visit, and a visit is closed with a diagnosis and consultation note that cannot be edited afterwards
+*   **Prescriptions** where the server calculates the quantity and price from the dose, frequency and duration, and a saved prescription can only be cancelled, never edited
+*   **Billing** owned by the Accountant: invoices, payments, PDF receipts and refunds, with Admin view-only access
+*   **Pharmacy** with drug inventory tracked in batches with expiry dates (the earliest-expiring batch is used first), low-stock and expiry alerts that trigger real notifications, and a dispense workflow with a safety checklist
+*   **Laboratory** with a payment-gated flow: order, payment, result entry with a PDF report, doctor notification and patient email
 *   **Reports** on revenue, patients, appointments, stock and lab utilization, exportable to PDF and Excel
-*   **Background email delivery** via the hospital's own Gmail mailbox (confirmations, lab results, paid-invoice receipts)
-*   **Secure onboarding**: new staff activate their account through an emailed link, with no temporary passwords
+*   **Background email delivery** via the hospital's own Gmail mailbox (confirmations, reminders, lab results, paid-invoice receipts)
+*   **Secure onboarding and access:** new staff activate their account through an emailed link with no temporary passwords, and an Admin can deactivate or reactivate accounts without deleting any history
+*   **One-click backup** of the database and lab reports, with restore instructions included in the file
 *   **Light and dark themes** that switch instantly, without a reload
 
 **🖼️ Screenshots** *(click any image to view it full size)*
@@ -72,13 +75,6 @@ A full-stack, role-based hospital management system that digitizes day-to-day cl
     <td align="center"><a href="assets/hms/10-dark-mode.png"><img src="assets/hms/10-dark-mode.png" width="170" alt="Dark mode"></a><br><sub>Dark Mode</sub></td>
   </tr>
 </table>
-
-**🔜 Roadmap (planned, not built yet)**
-
-*   **Clinical records for nurses:** the patient profile has a Medical History tab, currently a placeholder. Planned: nurses will record medical history, family history, observations (vital signs: temperature, pulse, respiration and blood pressure) and health details such as blood group and allergies there. These currently sit on the registration form.
-*   **Role changes:** a new Accountant role will take over all billing, including what the Admin controls today. The Receptionist will then focus strictly on booking appointments and recording or updating patient details, not health-related information.
-
-These are previewed at the end of the demo video as upcoming features, not part of the current build. The documentation will be updated once they ship.
 
 ---
 
@@ -123,7 +119,7 @@ I believe that software development is as much about creativity as it is about l
 *   <img src="assets/branding/connect/icon-github.png" width="20" valign="middle"> **GitHub:** [github.com/Bohanos](https://github.com/Bohanos)
 *   <img src="assets/branding/connect/icon-facebook.png" width="20" valign="middle"> **Facebook:** [facebook.com/Bohanos](https://www.facebook.com/Bohanos)
 *   <img src="assets/branding/connect/icon-email.png" width="20" valign="middle"> **Email:** [mgbojichinonsojoshua@gmail.com](mailto:mgbojichinonsojoshua@gmail.com)
-*   <img src="assets/branding/connect/icon-portfolio.png" width="20" valign="middle"> **Portfolio:** [bohanos-portfolio.vercel.app](https://bohanos-portfolio.vercel.app/)
+*   <img src="assets/branding/connect/icon-portfolio.png" width="20" valign="middle"> **Portfolio:** [bohanos-portfolio.vercel.app](https://bohanos.vercel.app/)
 --- 
 
 > *Currently focused on building, learning, and scaling. Let's connect!*
